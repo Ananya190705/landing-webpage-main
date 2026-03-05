@@ -1,0 +1,144 @@
+/* remove default spacing */
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#1F2937;
+    color:white;
+    padding:20px 120px;
+}
+
+.header a{
+    color:#E5E7EB;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+/* hero section */
+
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#1F2937;
+    color:white;
+    padding:80px 120px;
+}
+
+.hero-text{
+    max-width:450px;
+}
+
+.hero-text h1{
+    font-size:48px;
+    margin:0;
+}
+
+.hero-text p{
+    color:#E5E7EB;
+}
+
+.hero button{
+    background:#3882F6;
+    color:white;
+    border:none;
+    padding:10px 25px;
+    border-radius:6px;
+    margin-top:10px;
+}
+
+/* placeholder image */
+
+.hero-image{
+    width:450px;
+    height:200px;
+    background:#6b7280;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+/* information section */
+
+.info{
+    text-align:center;
+    padding:60px;
+}
+
+.info h2{
+    font-size:32px;
+    margin-bottom:40px;
+}
+
+.boxes{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+}
+
+.square{
+    width:120px;
+    height:120px;
+    border:3px solid #3882F6;
+    border-radius:10px;
+    margin:auto;
+}
+
+/* quote section */
+
+.quote{
+    background:#E5E7EB;
+    padding:80px 200px;
+}
+
+.quote-text{
+    font-size:24px;
+    font-style:italic;
+}
+
+.author{
+    text-align:right;
+    font-weight:bold;
+}
+
+/* call to action */
+
+.cta{
+    padding:80px;
+    display:flex;
+    justify-content:center;
+}
+
+.cta-box{
+    background:#3882F6;
+    color:white;
+    padding:40px 80px;
+    border-radius:10px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:800px;
+}
+
+.cta button{
+    background:#3882F6;
+    border:2px solid white;
+    color:white;
+    padding:10px 25px;
+    border-radius:6px;
+}
+
+/* footer */
+
+footer{
+    background:#1F2937;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
